@@ -1,0 +1,89 @@
+[
+    {
+      "id": "123",
+      "name": "Slate Armchair",
+      "description": "A stylish and comfortable armchair with a slate finish.",
+      "variants": [
+        {
+          "id": "abc123-var1",
+          "name": "Fabric",
+          "price": 509.15,
+          "discountedPrice": 399.99
+        },
+        {
+          "id": "abc123-var2",
+          "name": "Leather",
+          "price": 609.15,
+          "discountedPrice": 499.99
+        }
+      ],
+      "images": [
+        {
+          "url": "https://via.placeholder.com/640/100",
+          "name": "Front View",
+          "alt": "Front view of the Slate Armchair"
+        },
+        {
+          "url": "https://via.placeholder.com/640/500",
+          "name": "Side View",
+          "alt": "Side view of the Slate Armchair"
+        },
+        {
+          "url": "https://via.placeholder.com/640/900",
+          "name": "Back View",
+          "alt": "Back view of the Slate Armchair"
+        }
+      ],
+      "extraInfo": [
+        {
+          "title": "Dimensions",
+          "content": "Width: 80cm, Depth: 70cm, Height: 90cm"
+        },
+        {
+          "title": "Materials",
+          "content": "Solid wood frame, high-density foam padding, fabric or leather upholstery"
+        }
+      ]
+    },
+    {
+      "id": "345",
+      "name": "Leather Sofa",
+      "description": "A luxurious leather sofa for your living room.",
+      "variants": [
+        {
+          "id": "def456-var1",
+          "name": "Black",
+          "price": 1299.99,
+          "discountedPrice": 1099.99
+        },
+        {
+          "id": "def456-var2",
+          "name": "Brown",
+          "price": 1399.99,
+          "discountedPrice": 1199.99
+        }
+      ],
+      "images": [
+        {
+          "url": "https://via.placeholder.com/640/100",
+          "name": "Front View",
+          "alt": "Front view of the Leather Sofa"
+        },
+        {
+          "url": "https://via.placeholder.com/640/500",
+          "name": "Side View",
+          "alt": "Side view of the Leather Sofa"
+        }
+      ],
+      "extraInfo": [
+        {
+          "title": "Dimensions",
+          "content": "Width: 200cm, Depth: 90cm, Height: 80cm"
+        },
+        {
+          "title": "Materials",
+          "content": "Solid wood frame, high-density foam padding, genuine leather upholstery"
+        }
+      ]
+    }
+  ]
