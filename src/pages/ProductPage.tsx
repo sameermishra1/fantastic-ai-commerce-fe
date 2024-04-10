@@ -7,7 +7,6 @@ import Banner from '../components/Banner';
 
 const ProductPage = () => {
   const { id = '' } = useParams<{ id: string }>();
-  console.log("id - " + id)
   return (
     <div className="max-w-screen-xl mx-auto">
       <Banner />
