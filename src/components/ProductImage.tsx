@@ -2,6 +2,7 @@
 import React, { useState } from 'react';
 
 interface Image {
+  key: number;
   url: string;
   name: string;
   alt: string;
@@ -30,6 +31,7 @@ const ProductImage: React.FC<ProductImageProps> = ({ images }) => {
     <div>
       <div className="relative">
         <img
+          key={images[selectedImage].key}
           src={images[selectedImage].url}
           alt={images[selectedImage].alt}
           className="w-full h-auto object-cover rounded"
@@ -75,13 +77,14 @@ const ProductImage: React.FC<ProductImageProps> = ({ images }) => {
         <div className="flex justify-center space-x-2">
           {images.map((image, index) => (
             <div
-              key={image.name}
+              key={image.key}
               className={`cursor-pointer rounded ${
                 selectedImage === index ? 'ring-2 ring-blue-500' : ''
               }`}
               onClick={() => setSelectedImage(index)}
             >
               <img
+                key={image.key}
                 src={image.url}
                 alt={image.alt}
                 className="w-16 h-16 object-cover rounded"
